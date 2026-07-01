@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6a0019/v1
+canonical_location: https://kanripo.org/bkk/KR6a0019/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大三摩惹經
+  identifiers:
+    alt_id:
+    - T01n0019
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T01/T01n0019.xml
+    old_id: T01n0019
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0019_000.yaml, hash: 'sha256:125be28cf36e34bfd3b136d6a7c02e5371ff1bdeb641fcd71db1237d77f796f2'}
+  - {seq: 1, filename: KR6a0019_001.yaml, hash: 'sha256:8f56aea63320b3618359f3285b659bb94ae9d5668cfade101af6ec94c2c912e4'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6a0019_001.markers.yaml, hash: 'sha256:30616e943c42c62386257be80608066ff5a81fb57089449a256e9002abdf37b6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0019_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1913
+  label: 佛說大三摩惹經
+  type: juan
+  level: 1
+hash: sha256:34aea19f3d8c0c9fa62a4427d8f7a88f67c911b5b9eddc4b4ad1772f44974df0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

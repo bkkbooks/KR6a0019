@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6a0019/T/v1
+canonical_location: https://kanripo.org/bkk/KR6a0019/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大三摩惹經
+  identifiers:
+    krp: KR6a0019
+    cbeta: T01n0019
+    cbeta_old_id: T01n0019
+    authorityid: CA0000669
+    json_key: T0019
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T01/T01n0019.xml
+    old_id: T01n0019
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0019_000-T.yaml, hash: 'sha256:125be28cf36e34bfd3b136d6a7c02e5371ff1bdeb641fcd71db1237d77f796f2'}
+  - {seq: 1, filename: KR6a0019_001-T.yaml, hash: 'sha256:2231ef8e0eccdbda8beebe20dd4e5a504e65a81617b2aebb3c141396148bbc4f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6a0019_000-T.markers.yaml, hash: 'sha256:f466611dd1202d612ed4326850039a2aa32a38005ba95f71cb6283e9293589c9'}
+  - {seq: 1, role: markers, filename: assets/KR6a0019_001-T.markers.yaml, hash: 'sha256:81340bbb1ae2a3c2eb84fd67fd950392c7492c1370467b8b9c87f3cae9caa0ba'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0019_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1913
+  label: 佛說大三摩惹經
+  type: juan
+  level: 1
+hash: sha256:84361d55542ab387743fba3baf3d6e6d95aef2b69d1b3c1002d10f965428bd8d
